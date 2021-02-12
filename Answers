@@ -1,0 +1,70 @@
+1. Merge Sort
+    21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40
+    - 1st sort:
+    left: 21, 1, 26, 45, 29, 28, 2, 9
+    right: 16, 49, 39, 27, 43, 34, 46, 40
+
+    2nd sort:
+        left 1: 21, 1, 26, 45
+        left 2: 29, 28, 2, 9
+
+        right 1: 16, 49, 39, 27
+        right 2: 43, 34, 46, 40
+
+    3rd sort:
+        left 1a: 21, 1
+        left 1b: 26, 45
+
+        left 2a: 29, 28
+        left 2b: 2, 9
+
+        right 1a: 16, 49
+        right 1b: 39, 27
+
+        right 2a: 43, 34
+        right 2b: 46, 40
+
+    4th sort:
+
+    left 1aa: 21
+    left 1ab: 1
+
+    left 1ba: 26
+    left 1bb: 45
+
+    left 2aa: 29
+    left 2ab: 28
+
+    left 2ba: 2
+    left 2bb: 9
+
+    right 1aa: 16
+    right 1ab: 49
+
+    right 1ba: 39
+    right 1bb: 27
+
+    right 2aa: 43
+    right 2ab: 34
+
+    right 2ba: 46
+    right 2bb: 40
+
+
+-first two to merge will be 21 and 1
+7th merge will be 34 and 43
+
+
+2. Quicksort
+
+1) the pivot could have been either 14 or 17 because the values to the left and right of each are lower to left and higher to right.
+
+2) 1st partitioning of 14, 17, 13, 15, 19, 10, 3, 16, 9, 12:
+
+  2a)   9, 3, 10, 12, 19, 15, 13, 16, 17, 14
+
+   9, 3, 10, 12, 13, 14, 15, 16, 17, 19
+
+   2b) 12, 9, 10, 3, 13, 14, 19, 16, 15, 17
+
+   9, 10, 3, 12, 13, 14, 17, 16, 15, 19
